@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Custom Movie Player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="background">
+      <div id="videoBox">
+        <video id="myVideo" width="320" height="240">
+          <source src="http://localhost:3000/video" type="video/mp4">
+          Your browser does not support video tag.
+        </video>
+        <div id="currentTimePosition">
+          <span id="currentTimeNotifier" style="margin-left:0; width:10px"></span>
+        </div>
+        <div id="customControlBar">
+          <a id="previous" class="round">&#8249;</a>
+          <span id="play">play</span>
+          <a id="next" class="round">&#8250;</a>
+          <span id="playTimeContainer">
+            <span id="playTimeMinute">0</span>
+            <span>:</span>
+            <span id="playTimeSecond">00</span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="customController.js"></script>
+  </body>
+</html>

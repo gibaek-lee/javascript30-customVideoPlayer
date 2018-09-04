@@ -1,0 +1,42 @@
+<current javascript30 source>
+사용 video: 낯선열대MV(쏜애플), 고양이 집회(신카이 마코토)
+
+[html5 video]
+https://www.w3schools.com/html/html5_video.asp
+
+[html audio/video dom reference]
+https://www.w3schools.com/tags/ref_av_dom.asp
+
+-methods
+videoDOMnode.play()
+videoDOMnode.pause()
+
+-properties
+videoDOMnode.currentTime + rightKeyEvent //set video play position
+videoDOMnode.ended //whether video ended or not
+videoDOMnode.paused //whether video paused or not
+
+videoDOMnode.playbackRate //set video speed
+videoDOMnode.volume //set video volume
+
+-events
+videoDOMnode.event = function(){
+};
+
+[javascript streaming]
+-Streams API - MDN
+https://developer.mozilla.org/en-US/docs/Web/API/Streams_API
+
+-Streaming 서비스
+https://javafa.gitbooks.io/nodejs_server_basic/content/chapter11.html
+
+-Video streaming(chunking solution!)
+https://medium.com/@daspinola/video-stream-with-node-js-and-html5-320b3191a6b6
+
+[more]
+- 통신상태에 따른 streaming 파일 변경 제공
+- 재생 현재 위치 buffer width 보여주기
+- chunk 단위, node 갯수 커스토마이징
+- audio tag mp3 테스트
+- youtube의 영상에서 mp3만 가져와서 스트리밍. youtube api 있나?
+- 한 파일 끝나면 다음 파일로 넘어가서 streaming되기

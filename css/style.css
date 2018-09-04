@@ -1,0 +1,43 @@
+body, html {
+  height:100%;
+  margin:0;
+}
+#background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#currentTimePosition{
+  height: 10px;
+  background-color: blue;
+  opacity:0.6;
+}
+#currentTimeNotifier{
+  position:absolute;
+  background-color: black;
+  height:10px;
+  opacity:1;
+}
+#customControlBar {
+  background-color:black;
+  opacity:0.8;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#previous, #play, #next{
+  background-color: #f1f1f1;
+  color: black;
+}
+.round {
+  border-radius: 50%;
+}
+#playTimeContainer{
+  color:white;
+}
