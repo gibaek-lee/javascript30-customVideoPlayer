@@ -11,18 +11,23 @@ Run streaming server : $node streamingServer<br>
 Connect url 'localhost:3000' on internet browser(in my case, Chrome) and then test player buttons.
 
 ### Break down into end to end tests
-Play/Pause key : play/pause video<br>
-< > key : see video 2 seconds before/next<br>
-It shows you current play time besides '>' key.
+- Play/Pause key : play/pause video<br>
+- < > key : see video 2 seconds before/next<br>
+- It shows you current play time besides '>' key.
 
 <p align="center">
-  <img src="./image/1.png">
-</p>
+  <img width="40%" src="./image/1.png"><br>
+  Video Player Customizing
+</p><br>
+
 <p align="center">
-  <img src="./image/2.png">
-</p>
+  <img width="85%" src="./image/2.png"><br>
+  Chrome dev tools Network shows streaming chunks
+</p><br>
+
 <p align="center">
-  <img src="./image/3.png">
+  <img width="60%" src="./image/3.png"><br>
+  Confirm contents ranges
 </p>
 
 ### And coding style tests
