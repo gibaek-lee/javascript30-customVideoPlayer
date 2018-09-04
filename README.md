@@ -5,10 +5,11 @@ Video player customising with data streaming via node.js server(Vanilla javascri
 This is custom video player with server stream.
 
 ## Running the tests
-No installation. Fork this repository and pull it to your local enviroment.<br>
-Install npm packages : $npm install<br>
-Run streaming server : $node streamingServer<br>
-Connect url 'localhost:3000' on internet browser(in my case, Chrome) and then test player buttons.
+step1. No installation. Fork this repository and pull it to your local enviroment.<br>
+step2. Make video folder and put 'yourVideo.mp4' into it.<br>
+step3. Install npm packages : $npm install<br>
+step4. Run streaming server : $node streamingServer<br>
+step5. Connect url 'localhost:3000' on internet browser(in my case, Chrome) and then test player buttons.
 
 ### Break down into end to end tests
 - Play/Pause key : play/pause video<br>
