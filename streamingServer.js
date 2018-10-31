@@ -11,7 +11,7 @@ app.get('/',function(req,res){
 });
 
 app.get('/video',function(req,res){
-  const videopath='movie/yourVideo.mp4';
+  const videopath='movie/catMovie.mp4';
   let stat=fs.statSync(videopath);
   let fileSize=stat.size;
   let range=req.headers.range;
