@@ -51,6 +51,6 @@ Gi-baek lee, first commit, No contribution. [More about me, LinkedIn](https://ww
 - Course Name: Javascript 30
 - Course Instructor: Wes Bros
 - Course Web site: [JavaScript30](https://javascript30.com/)
-- Gif Sample Movie: [신카이 마코토 - 고양이 집회](https://www.youtube.com/watch?v=LHwHv1Zjj9w)
+- Gif Sample Movie: [신카이 마코토 - 고양이 집회, NHK, Youtube](https://www.youtube.com/watch?v=LHwHv1Zjj9w)
 - Sample Video cut scene: [Thorn apple - '낯선 열대' Official MV, Youtube](https://www.youtube.com/watch?v=U6IuopxXHyg)
 - Streaming server architect: [Video stream with Node.js and HTML5, medium](https://medium.com/@daspinola/video-stream-with-node-js-and-html5-320b3191a6b6)
